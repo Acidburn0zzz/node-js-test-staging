@@ -1,23 +1,23 @@
 {
-  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "author": "Travis CI <contact+node-js-test-staging@travis-ci.org>",
   "name": "travis-ci-node.js-example",
   "description": "An example node.js project that uses vows and travis-ci.org for continuous integration",
   "version": "0.0.0",
-  "homepage": "http://travis-ci.org/#!/travis-ci/travis-ci-node.js-example",
+  "homepage": "https://github.com/travis-repos/node-js-test-staging",
   "main": "./lib/serious-calculations",
   "repository": {
     "type": "git",
-    "url": "git://github.com/travis-ci/travis-ci-node.js-example.git"
+    "url": "git://github.com/travis-repos/node-js-test-staging.git"
   },
   "scripts": {
     "test": "vows --spec"
   },
   "engines": {
-    "node": ">= 0.4"
+    "node": ">= 0.10"
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.6.x"
+    "vows": "latest"
   }
 }
 
